@@ -8,7 +8,7 @@ namespace Inheritance
 {
     internal class enemy : GameCharacter
     {
-        public enemy(string name) : base(name)
+        public enemy(string name, int health) : base(name, health)
         {
 
         }

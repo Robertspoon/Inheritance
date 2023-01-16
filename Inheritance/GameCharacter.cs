@@ -18,10 +18,11 @@ namespace Inheritance
 
         //methods
 
-        public GameCharacter(string name)
+        public GameCharacter(string name, int health)
         {
             health = 100;
             this.name = name;
+            
             
         }
 

@@ -11,7 +11,7 @@ namespace Inheritance
         public int shield = 100;
         public int lives = 3;
 
-        public player(string name) : base(name)
+        public player(string name, int health) : base(name, health)
         {
 
         }
